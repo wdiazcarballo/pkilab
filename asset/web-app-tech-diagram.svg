@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f9f9f9" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Web Application Technologies by Component</text>
+  
+  <!-- Legend -->
+  <rect x="100" y="60" width="20" height="20" fill="#ffcdd2" stroke="#c62828" stroke-width="1" />
+  <text x="130" y="75" font-family="Arial, sans-serif" font-size="12" fill="#c62828">เว็บเบราว์เซอร์ (Web Browser)</text>
+  
+  <rect x="300" y="60" width="20" height="20" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1" />
+  <text x="330" y="75" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">แบ็กเอนด์ (Backend)</text>
+  
+  <rect x="500" y="60" width="20" height="20" fill="#bbdefb" stroke="#1565c0" stroke-width="1" />
+  <text x="530" y="75" font-family="Arial, sans-serif" font-size="12" fill="#1565c0">API & การสื่อสาร (API & Communication)</text>
+  
+  <rect x="700" y="60" width="20" height="20" fill="#fff9c4" stroke="#f57f17" stroke-width="1" />
+  <text x="730" y="75" font-family="Arial, sans-serif" font-size="12" fill="#f57f17">การเข้ารหัส (Encoding)</text>
+
+  <!-- Main flow arrow -->
+  <path d="M 100,350 L 800,350" stroke="#666" stroke-width="3" fill="none" stroke-dasharray="10,5" />
+  <polygon points="790,350 780,340 780,360" fill="#666" />
+  <text x="450" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666" font-style="italic">ลำดับการเชื่อมต่อ (Connection Flow)</text>
+  
+  <!-- Web Browser Section -->
+  <rect x="50" y="120" width="200" height="210" rx="10" fill="#ffcdd2" stroke="#c62828" stroke-width="2" />
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#c62828">เว็บเบราว์เซอร์</text>
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c62828">(Web Browser)</text>
+  
+  <!-- Web Browser Content -->
+  <rect x="60" y="175" width="180" height="25" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1" />
+  <text x="150" y="192" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">HTML Parsing & Rendering</text>
+  
+  <rect x="60" y="205" width="180" height="25" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1" />
+  <text x="150" y="222" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">CSS Styling</text>
+  
+  <rect x="60" y="235" width="180" height="25" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1" />
+  <text x="150" y="252" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">JavaScript Execution</text>
+  
+  <rect x="60" y="265" width="180" height="25" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1" />
+  <text x="150" y="282" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">DOM Manipulation</text>
+  
+  <rect x="60" y="295" width="180" height="25" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1" />
+  <text x="150" y="312" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Same-Origin Policy</text>
+  
+  <!-- Backend Section -->
+  <rect x="350" y="120" width="200" height="210" rx="10" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2" />
+  <text x="450" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">แบ็กเอนด์</text>
+  <text x="450" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32">(Backend)</text>
+  
+  <!-- Backend Content -->
+  <rect x="360" y="175" width="180" height="25" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1" />
+  <text x="450" y="192" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Server Platforms (Java, ASP.NET)</text>
+  
+  <rect x="360" y="205" width="180" height="25" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1" />
+  <text x="450" y="222" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Scripting (PHP, Ruby on Rails)</text>
+  
+  <rect x="360" y="235" width="180" height="25" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1" />
+  <text x="450" y="252" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Authentication & Sessions</text>
+  
+  <rect x="360" y="265" width="180" height="25" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1" />
+  <text x="450" y="282" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">SQL Database Access</text>
+  
+  <rect x="360" y="295" width="180" height="25" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1" />
+  <text x="450" y="312" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Server-Side Validation</text>
+  
+  <!-- API & Communication Section -->
+  <rect x="650" y="120" width="200" height="210" rx="10" fill="#bbdefb" stroke="#1565c0" stroke-width="2" />
+  <text x="750" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">API & การสื่อสาร</text>
+  <text x="750" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1565c0">(API & Communication)</text>
+  
+  <!-- API Content -->
+  <rect x="660" y="175" width="180" height="25" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" />
+  <text x="750" y="192" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">HTTP Methods (GET/POST)</text>
+  
+  <rect x="660" y="205" width="180" height="25" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" />
+  <text x="750" y="222" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">REST APIs</text>
+  
+  <rect x="660" y="235" width="180" height="25" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" />
+  <text x="750" y="252" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">SOAP Web Services</text>
+  
+  <rect x="660" y="265" width="180" height="25" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" />
+  <text x="750" y="282" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Ajax & XMLHttpRequest</text>
+  
+  <rect x="660" y="295" width="180" height="25" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" />
+  <text x="750" y="312" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">WebSockets</text>
+  
+  <!-- Transaction flow arrows -->
+  <path d="M 150,330 C 150,400 750,400 750,330" stroke="#666" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+  <path d="M 750,330 C 750,400 450,400 450,330" stroke="#666" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+  <path d="M 450,330 C 450,400 150,400 150,330" stroke="#666" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+  
+  <!-- Arrow labels -->
+  <text x="250" y="415" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">1. คำขอผู้ใช้</text>
+  <text x="450" y="415" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">2. ประมวลผล</text>
+  <text x="650" y="415" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">3. ส่งการตอบกลับ</text>
+  
+  <!-- Encoding Section -->
+  <rect x="50" y="440" width="800" height="100" rx="10" fill="#fff9c4" stroke="#f57f17" stroke-width="2" />
+  <text x="450" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#f57f17">การเข้ารหัส</text>
+  <text x="450" y="480" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#f57f17">(Encoding - Used Across All Components)</text>
+  
+  <!-- Encoding content - in a row -->
+  <rect x="70" y="490" width="140" height="40" rx="5" fill="#fffde7" stroke="#f57f17" stroke-width="1" />
+  <text x="140" y="515" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">URL Encoding</text>
+  
+  <rect x="230" y="490" width="140" height="40" rx="5" fill="#fffde7" stroke="#f57f17" stroke-width="1" />
+  <text x="300" y="515" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">HTML Encoding</text>
+  
+  <rect x="390" y="490" width="140" height="40" rx="5" fill="#fffde7" stroke="#f57f17" stroke-width="1" />
+  <text x="460" y="515" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Unicode Encoding</text>
+  
+  <rect x="550" y="490" width="140" height="40" rx="5" fill="#fffde7" stroke="#f57f17" stroke-width="1" />
+  <text x="620" y="515" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Base64 Encoding</text>
+  
+  <rect x="710" y="490" width="120" height="40" rx="5" fill="#fffde7" stroke="#f57f17" stroke-width="1" />
+  <text x="770" y="515" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">JSON/XML</text>
+  
+  <!-- Security Considerations -->
+  <rect x="50" y="560" width="800" height="120" rx="10" fill="#e1bee7" stroke="#6a1b9a" stroke-width="2" />
+  <text x="450" y="580" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#6a1b9a">ประเด็นด้านความปลอดภัย</text>
+  <text x="450" y="600" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#6a1b9a">(Security Considerations)</text>
+  
+  <!-- Security content -->
+  <rect x="70" y="610" width="230" height="60" rx="5" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1" />
+  <text x="185" y="630" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold">เบราว์เซอร์:</text>
+  <text x="185" y="650" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">XSS, CSRF, Client-Side Storage,</text>
+  <text x="185" y="665" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">DOM-Based Vulnerabilities</text>
+  
+  <rect x="335" y="610" width="230" height="60" rx="5" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1" />
+  <text x="450" y="630" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold">แบ็กเอนด์:</text>
+  <text x="450" y="650" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">SQL Injection, Authentication Flaws,</text>
+  <text x="450" y="665" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Access Control Issues, File Inclusion</text>
+  
+  <rect x="600" y="610" width="230" height="60" rx="5" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1" />
+  <text x="715" y="630" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold">API & การสื่อสาร:</text>
+  <text x="715" y="650" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Man-in-the-Middle, CORS Issues,</text>
+  <text x="715" y="665" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">SSL/TLS Vulnerabilities</text>
+</svg>

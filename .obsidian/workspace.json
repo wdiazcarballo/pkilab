@@ -20,8 +20,65 @@
               "icon": "lucide-file",
               "title": "Backend"
             }
+          },
+          {
+            "id": "94f3cefe5a555ba7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "การจัดการความปลอดภัยของ API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "การจัดการความปลอดภัยของ API"
+            }
+          },
+          {
+            "id": "eb3b078ff9057728",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Frontend"
+            }
+          },
+          {
+            "id": "10ec77ae79983a04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "กลไกคุ้มครองป้องกันแอปพลิเคชันบนเว็บ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "กลไกคุ้มครองป้องกันแอปพลิเคชันบนเว็บ"
+            }
+          },
+          {
+            "id": "669c15e9347603bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "เทคโนโลยีในการพัฒนาแอปพลิเคชันบนเว็บ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "เทคโนโลยีในการพัฒนาแอปพลิเคชันบนเว็บ"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -168,9 +225,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2a35ef0b7ca2145",
+  "active": "669c15e9347603bf",
   "lastOpenFiles": [
-    "4 Backend Lab.md",
-    "Backend.md"
+    "asset/web-app-tech-diagram.svg",
+    "asset/Unconfirmed 192640.crdownload",
+    "กลไกคุ้มครองป้องกันแอปพลิเคชันบนเว็บ.md",
+    "เทคโนโลยีในการพัฒนาแอปพลิเคชันบนเว็บ.md",
+    "asset/web-app-defense-diagram-fixed.svg",
+    "asset/web-app-security-diagram-En.svg",
+    "asset/web-app-security-diagram.svg",
+    "asset/web-app-defense-diagram.svg",
+    "asset/Unconfirmed 105115.crdownload",
+    "asset/Unconfirmed 73725.crdownload",
+    "Frontend.md",
+    "asset.md",
+    "asset/Unconfirmed 254508.crdownload",
+    "asset/Unconfirmed 320858.crdownload",
+    "asset",
+    "New folder",
+    "Backend.md",
+    "การจัดการความปลอดภัยของ API.md",
+    "4 Backend Lab.md"
   ]
 }

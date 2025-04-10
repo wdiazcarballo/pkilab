@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background and Title -->
+  <rect width="900" height="700" fill="#f9f9f9" />
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Web Application (In)security: Key Concepts</text>
+  
+  <!-- Evolution Section -->
+  <rect x="50" y="70" width="250" height="160" rx="10" fill="#e1f5fe" stroke="#0288d1" stroke-width="2" />
+  <text x="175" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#01579b">Evolution of Web Applications</text>
+  <text x="60" y="115" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan x="60" y="115">• Static websites → Dynamic applications</tspan>
+    <tspan x="60" y="140">• One-way flow → Two-way flow of data</tspan>
+    <tspan x="60" y="165">• Public content → Sensitive information</tspan>
+    <tspan x="60" y="190">• Simple technology → Complex systems</tspan>
+    <tspan x="60" y="215">• Limited functionality → Rich features</tspan>
+  </text>
+  
+  <!-- Common Functions -->
+  <rect x="320" y="70" width="250" height="160" rx="10" fill="#e8f5e9" stroke="#43a047" stroke-width="2" />
+  <text x="445" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b5e20">Common Web App Functions</text>
+  <text x="330" y="115" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan x="330" y="115">• E-commerce and banking</tspan>
+    <tspan x="330" y="140">• Social networking</tspan>
+    <tspan x="330" y="165">• Information sharing and wikis</tspan>
+    <tspan x="330" y="190">• Business applications (HR, ERP)</tspan>
+    <tspan x="330" y="215">• Administrative interfaces</tspan>
+  </text>
+  
+  <!-- SSL Misconception -->
+  <rect x="590" y="70" width="250" height="160" rx="10" fill="#ffecb3" stroke="#ffa000" stroke-width="2" />
+  <text x="715" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">The SSL Misconception</text>
+  <text x="600" y="115" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan x="600" y="115">• "This site is secure" claims</tspan>
+    <tspan x="600" y="140">• SSL only protects data in transit</tspan>
+    <tspan x="600" y="165">• Does not prevent application attacks</tspan>
+    <tspan x="600" y="190">• PCI compliance ≠ Security</tspan>
+    <tspan x="600" y="215">• Most apps still have security flaws</tspan>
+  </text>
+  
+  <!-- Core Security Problem -->
+  <rect x="170" y="250" width="560" height="100" rx="10" fill="#ffcdd2" stroke="#e53935" stroke-width="2" />
+  <text x="450" y="275" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#b71c1c">Core Security Problem: Users Can Submit Arbitrary Input</text>
+  <text x="180" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan x="450" y="300" text-anchor="middle">Users can interfere with any data sent between client and server</tspan>
+    <tspan x="450" y="325" text-anchor="middle">Applications must assume all input is potentially malicious</tspan>
+  </text>
+  
+  <!-- Common Vulnerabilities -->
+  <rect x="50" y="370" width="380" height="220" rx="10" fill="#e0f7fa" stroke="#00acc1" stroke-width="2" />
+  <text x="240" y="390" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#006064">Common Vulnerabilities (%)</text>
+  
+  <!-- Vulnerability Bars -->
+  <rect x="70" y="410" width="280" height="20" fill="#e1f5fe" />
+  <rect x="70" y="410" width="173.6" height="20" fill="#4fc3f7" />
+  <text x="360" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">62% Broken authentication</text>
+  
+  <rect x="70" y="440" width="280" height="20" fill="#e1f5fe" />
+  <rect x="70" y="440" width="198.8" height="20" fill="#4fc3f7" />
+  <text x="360" y="455" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">71% Broken access controls</text>
+  
+  <rect x="70" y="470" width="280" height="20" fill="#e1f5fe" />
+  <rect x="70" y="470" width="89.6" height="20" fill="#4fc3f7" />
+  <text x="360" y="485" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">32% SQL injection</text>
+  
+  <rect x="70" y="500" width="280" height="20" fill="#e1f5fe" />
+  <rect x="70" y="500" width="263.2" height="20" fill="#4fc3f7" />
+  <text x="360" y="515" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">94% Cross-site scripting</text>
+  
+  <rect x="70" y="530" width="280" height="20" fill="#e1f5fe" />
+  <rect x="70" y="530" width="218.4" height="20" fill="#4fc3f7" />
+  <text x="360" y="545" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">78% Information leakage</text>
+  
+  <rect x="70" y="560" width="280" height="20" fill="#e1f5fe" />
+  <rect x="70" y="560" width="257.6" height="20" fill="#4fc3f7" />
+  <text x="360" y="575" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">92% Cross-site request forgery</text>
+  
+  <!-- Problem Factors -->
+  <rect x="450" y="370" width="390" height="220" rx="10" fill="#f3e5f5" stroke="#8e24aa" stroke-width="2" />
+  <text x="645" y="390" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a148c">Key Problem Factors</text>
+  <text x="460" y="415" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan x="460" y="415">• Underdeveloped security awareness</tspan>
+    <tspan x="460" y="440">• Custom development of applications</tspan>
+    <tspan x="460" y="465">• Deceptive simplicity of development tools</tspan>
+    <tspan x="460" y="490">• Rapidly evolving threat profile</tspan>
+    <tspan x="460" y="515">• Resource and time constraints</tspan>
+    <tspan x="460" y="540">• Overextended technologies</tspan>
+    <tspan x="460" y="565">• Increasing demands on functionality</tspan>
+  </text>
+  
+  <!-- New Security Perimeter -->
+  <rect x="170" y="610" width="560" height="70" rx="10" fill="#fff9c4" stroke="#fbc02d" stroke-width="2" />
+  <text x="450" y="630" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#f57f17">The New Security Perimeter</text>
+  <text x="450" y="655" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Security perimeter has shifted from network to application layer, with applications becoming
+  </text>
+  <text x="450" y="670" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    gateways to sensitive back-end systems and placing users at risk
+  </text>
+  
+  <!-- Connecting Arrows -->
+  <path d="M 175 230 L 175 250" stroke="#666" stroke-width="2" fill="none" />
+  <path d="M 445 230 L 445 250" stroke="#666" stroke-width="2" fill="none" />
+  <path d="M 715 230 L 715 250" stroke="#666" stroke-width="2" fill="none" />
+  <path d="M 450 350 L 450 370" stroke="#666" stroke-width="2" fill="none" />
+  <path d="M 240 590 L 240 610" stroke="#666" stroke-width="2" fill="none" />
+  <path d="M 645 590 L 645 610" stroke="#666" stroke-width="2" fill="none" />
+</svg>
