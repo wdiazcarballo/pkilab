@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "เทคโนโลยีในการพัฒนาแอปพลิเคชันบนเว็บ.md",
+                "file": "8 การจัดการความปลอดภัยของ API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "เทคโนโลยีในการพัฒนาแอปพลิเคชันบนเว็บ"
+              "title": "8 การจัดการความปลอดภัยของ API"
+            }
+          },
+          {
+            "id": "3703b4b29eeef6ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9 Frontend.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "9 Frontend"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -225,26 +239,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "669c15e9347603bf",
+  "active": "3703b4b29eeef6ed",
   "lastOpenFiles": [
+    "asset.md",
+    "9 Frontend.md",
+    "8 การจัดการความปลอดภัยของ API.md",
+    "7 Backend.md",
+    "6 เทคโนโลยีในการพัฒนาแอปพลิเคชันบนเว็บ.md",
+    "5 กลไกคุ้มครองป้องกันแอปพลิเคชันบนเว็บ.md",
+    "4 ความไม่มั่นคงของเว็บแอปพลิเคชัน.md",
+    "asset/Pasted image 20250410231613.png",
+    "asset/svgviewer-png-output.png",
     "asset/web-app-tech-diagram.svg",
     "asset/Unconfirmed 192640.crdownload",
-    "กลไกคุ้มครองป้องกันแอปพลิเคชันบนเว็บ.md",
-    "เทคโนโลยีในการพัฒนาแอปพลิเคชันบนเว็บ.md",
     "asset/web-app-defense-diagram-fixed.svg",
     "asset/web-app-security-diagram-En.svg",
     "asset/web-app-security-diagram.svg",
     "asset/web-app-defense-diagram.svg",
     "asset/Unconfirmed 105115.crdownload",
     "asset/Unconfirmed 73725.crdownload",
-    "Frontend.md",
-    "asset.md",
     "asset/Unconfirmed 254508.crdownload",
     "asset/Unconfirmed 320858.crdownload",
     "asset",
     "New folder",
-    "Backend.md",
-    "การจัดการความปลอดภัยของ API.md",
     "4 Backend Lab.md"
   ]
 }
