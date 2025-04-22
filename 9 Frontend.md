@@ -1712,11 +1712,11 @@ const ActionButton = styled.button`
   cursor: pointer;
   color: #7f8c8d;
   padding: 5px;
-  
+
   &:hover {
-    color: ${props => {
-      if (props.delete) return '#e74c3c';
-      if (props.preview) return '#2ecc71';
+    color: ${(props) => {
+      if (props.$delete) return '#e74c3c';
+      if (props.$preview) return '#2ecc71';
       return '#3498db';
     }};
   }
@@ -1727,7 +1727,7 @@ const CardBackList = styled.ul`
   padding-left: 20px;
   color: #7f8c8d;
   font-size: 0.9rem;
-  display: ${props => props.visible ? 'block' : 'none'};
+  display: ${(props) => (props.visible ? 'block' : 'none')};
 `;
 
 const ShowMoreButton = styled.button`
@@ -1738,7 +1738,7 @@ const ShowMoreButton = styled.button`
   padding: 5px 0;
   font-size: 0.8rem;
   margin-top: 5px;
-  
+
   &:hover {
     text-decoration: underline;
   }
@@ -1782,44 +1782,31 @@ const CardList = ({ cards, onEditCard }) => {
       {previewCard && (
         <CardPreview card={previewCard} onClose={closePreview} />
       )}
-      
+
       <List>
-        {cards.map(card => (
+        {cards.map((card) => (
           <ListItem key={card._id}>
             <CardHeader>
               <CardFront dangerouslySetInnerHTML={{ __html: card.front }} />
               <ActionButtons>
-                <ActionButton preview onClick={() => handlePreview(card)}>
+                <ActionButton $preview onClick={() => handlePreview(card)}>
                   <FaEye />
                 </ActionButton>
                 <ActionButton onClick={() => onEditCard(card)}>
                   <FaEdit />
                 </ActionButton>
-                <ActionButton delete onClick={() => handleDelete(card._id)}>
+                <ActionButton $delete onClick={() => handleDelete(card._id)}>
                   <FaTrash />
                 </ActionButton>
               </ActionButtons>
             </CardHeader>
-            
+
             {card.back.length > 0 && (
               <>
                 <ShowMoreButton onClick={() => toggleExpand(card._id)}>
                   {expandedCard === card._id ? 'ซ่อนคำตอบ' : 'แสดงคำตอบ'}
                 </ShowMoreButton>
-                
-                <CardBackList visible={expandedCard === card._id}>
-                  {card.back.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </CardBackList>
-              </>
 
-			{card.back.length > 0 && (
-              <>
-                <ShowMoreButton onClick={() => toggleExpand(card._id)}>
-                  {expandedCard === card._id ? 'ซ่อนคำตอบ' : 'แสดงคำตอบ'}
-                </ShowMoreButton>
-                
                 <CardBackList visible={expandedCard === card._id}>
                   {card.back.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -1835,6 +1822,7 @@ const CardList = ({ cards, onEditCard }) => {
 };
 
 export default CardList;
+
 ```
 
 ### 5.6 สร้างคอมโพเนนต์แสดงตัวอย่างการ์ด (`src/components/creator/CardPreview.js`)
